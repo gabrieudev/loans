@@ -1,57 +1,66 @@
-# Desafio: API para empréstimos
+# Challenge: Loans API
 
 ![Java](https://img.shields.io/badge/Java-8%2B-orange) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-green) [![LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-blue)](https://www.linkedin.com/in/joão-santos-1115a5304/)
 ![GPL License](https://img.shields.io/badge/License-GPL-blue) [![LinkedIn](https://img.shields.io/badge/Type-Challenge-purple)](https://github.com/backend-br/desafios/blob/master/points-of-interest/PROBLEM.md)
 
-Essa é a minha solução para o desafio backend **API para empréstimos**. Acesse o [desafio](https://github.com/backend-br/desafios/blob/master/loans/PROBLEM.md) para obter mais informações do problema.  
+This is my solution for the backend challenge **Loans API**. 
 
-## Tabela de conteúdos
+Please select your preferred language:
 
-- [Introdução](#introdução)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias](#tecnologias)
-- [Iniciando](#iniciando)
-- [Endpoints](#endpoints)
-- [Contribuições](#contribuições)
-- [Contato](#contato)
+- [English](README.md)
+- [Português (Brasil)](README.pt-br.md)
 
-## Introdução
+Check the [challenge](https://github.com/backend-br/desafios/blob/master/loans/PROBLEM.md) for more information about the problem.
 
-O desafio consiste em implementar um serviço que determine quais modalidades de empréstimo uma pessoa tem acesso.
+## Table of Contents
 
-## Funcionalidades
+- Introduction
+- Features
+- Technologies
+- Getting Started
+- Endpoints
+- Contributions
+- Contact
 
-- Método POST para informações da pessoa.
-- Visualização das modalidades de empréstimo.
+## Introduction
 
-## Tecnologias
+The challenge consists of implementing a service that determines which loan options a person has access to.
 
-- ![Java](https://img.shields.io/badge/Java-8%2B-orange): Linguagem de programação.
-- ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-green): Framework usado para a construção de aplicações voltadas à produção.
+## Features
 
-## Iniciando
+- POST method for person's information
+- Viewing available loan options
 
-Siga esses passos para executar o projeto na sua máquina:
+## Technologies
 
-1. Clone o repositório: `git clone https://github.com/gabrieudev/loans.git`
-2. Navegue para o diretório do projeto: `cd <caminho>`
-3. Construa a aplicação: `./mvnw clean install` (para Windows: `mvnw.cmd clean install`)
-4. Execute a aplicação: `./mvnw spring-boot:run` (para Windows: `mvnw.cmd spring-boot:run`)
+- ![Java](https://img.shields.io/badge/Java-8%2B-orange): Programming language.
+- ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-green): Framework used for building production-ready applications.
+
+## Getting Started
+
+Follow these steps
+
+to run the project on your machine:
+
+1. Clone the repository: `git clone https://github.com/gabrieudev/loans.git`
+2. Navigate to the project directory: `cd <path>`
+3. Build the application: `./mvnw clean install` (for Windows: `mvnw.cmd clean install`)
+4. Run the application: `./mvnw spring-boot:run` (for Windows: `mvnw.cmd spring-boot:run`)
 
 ## Endpoints
 
-- `POST /customer-loans`: Registra informações da pessoa e recebe as modalidades de empréstimo no corpo da resposta.
+- `POST /customer-loans`: Registers the person's information and returns the available loan options in the response body.
 
-Acesse a documentação completa no endpoint `/swagger-ui.html`
+Access the complete documentation at the `/swagger-ui.html` endpoint.
 
-## Contribuições
+## Contributions
 
-Contribuições são muito bem vindas! Caso queira contribuir, faça um fork do repositório e crie um pull request.
+Contributions are very welcome! If you want to contribute, fork the repository and create a pull request.
 
-## Contato
+## Contact
 
-Caso tenha alguma sugestão ou dúvida, entre em contato comigo em [LinkedIn](https://www.linkedin.com/in/joão-santos-1115a5304/)
+If you have any suggestions or questions, please contact me on [LinkedIn](https://www.linkedin.com/in/joão-santos-1115a5304/).
 
 ---
 
-**Licença:** Esse projeto é licenciado sob os termos da [GNU General Public License (GPL)](LICENSE).
+**License:** This project is licensed under the terms of the [GNU General Public License (GPL)](LICENSE).

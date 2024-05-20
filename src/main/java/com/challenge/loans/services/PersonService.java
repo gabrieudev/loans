@@ -4,9 +4,7 @@ import com.challenge.loans.rest.dtos.Loan;
 import com.challenge.loans.rest.dtos.PersonRequest;
 import com.challenge.loans.rest.dtos.PersonResponse;
 import com.challenge.loans.services.enums.TypeEnum;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
 import java.util.List;
 
